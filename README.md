@@ -2,3 +2,8 @@
 
 <a href="https://www.facebook.com/yoshiyasu.takefuji/posts/1369615029912331"><img src="https://gyazo.com/03e5ddd609bf392dd7ee655bc5750504.png"></a>
 
+<ul>
+  <li>総当たりで頑張って計算すると解けるようだ</li>
+  <li><code>01010101</code>, <code>00110011</code>, <code>00001111</code>からand/or/notで計算できるパタンを全部数えあげる</li>
+  <li>notは2回だけしか使わない</li>
+</ul>
