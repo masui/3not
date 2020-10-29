@@ -7,3 +7,10 @@
   <li><code>01010101</code>, <code>00110011</code>, <code>00001111</code>からand/or/notで計算できるパタンを全部数えあげる</li>
   <li>notは2回だけしか使わない</li>
 </ul>
+
+<h2>計算方法</h2>
+
+<ul>
+  <li><code>% ruby 3not.rb > out.rb</code></li>
+  <li><code>%ruby out.rb</code>/li>
+</ul>
