@@ -12,5 +12,5 @@
 
 <ul>
   <li><code>% ruby 3not.rb > out.rb</code></li>
-  <li><code>% ruby out.rb</code>/li>
+  <li><code>% ruby out.rb</code></li>
 </ul>
