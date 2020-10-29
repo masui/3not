@@ -43,11 +43,11 @@ d1 = check(d1)
 
 d1.keys.each { |v|
   d2 = d1.dup
-  d2[v ^ 0b11111111] = "(inv(#{d1[v]}))"
+  d2[v ^ 0b11111111] = "inv(#{d1[v]})"
   d2 = check(d2)
   d2.keys.each { |v|
     d3 = d2.dup
-    d3[v ^ 0b11111111] = "(inv(#{d2[v]}))"
+    d3[v ^ 0b11111111] = "inv(#{d2[v]})"
     d3 = check(d3)
     if d3[0b10101010] && d3[0b11001100] && d3[0b11110000]
       print <<EOF
