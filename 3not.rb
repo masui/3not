@@ -70,14 +70,3 @@ EOF
     end
   }
 }
-
-
-#while true do
-#  現状の集合すべての組み合わせについてandを計算したのを追加
-#   while true do
-#     現状の集合すべての組み合わせについてorを計算したのを追加
-#     break if 追加がもうない
-#   end
-#   break if 3つのnotが出現してる
-#   現状の集合すべての組み合わせについてnotを計算したのを追加
-# end
