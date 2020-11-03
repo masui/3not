@@ -20,6 +20,8 @@
   <li>入力A〜Cは<code>000</code>から<code>111</code>までの8パタンがある</li>
   <li><code>000</code>から<code>111</code>までのそれぞれに対してどういう出力が出るかというパタンを考える</li>
   <li>入力Aそのままだとパタンは<code>01010101</code>になる</li>
-  <li>入力Bは<code>00110011</code></li>, 入力Cは<code>00001111</code></li>
+  <li>入力Bは<code>00110011</code>, 入力Cは<code>00001111</code></li>
   <li>これらのみっつに対してnot, and, orを適用して not(A), not(B), not(C)を出力できればいい</li>
+  <li><code>10101010</code>みたいなのが出ればこれは not(A)になる</li>
+  <li>ひたすら総当たりして not(A), not(B), not(C) を出力できればいい</li>
 </ul>
